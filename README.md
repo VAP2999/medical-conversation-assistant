@@ -12,7 +12,7 @@ This application embodies principles of human-AI collaboration by:
 
 ## 🔬 Research Focus
 
-Built with CHAI Lab principles in mind:
+Built with human-centered AI principles:
 - **Personalization**: Adapts to individual communication styles and anxiety levels
 - **Collaboration**: Strengthens human (doctor-patient) relationships
 - **Support**: Provides emotional awareness for medical anxiety
@@ -69,6 +69,10 @@ Built with CHAI Lab principles in mind:
 git clone [repository-url]
 cd medical-conversation-assistant
 
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -106,15 +110,27 @@ This tool embodies the principle that AI should enhance human capabilities rathe
 - Integration with electronic health records while preserving privacy
 - Expansion to specialized medical domains (pediatrics, mental health, etc.)
 
-## 🏆 CHAI Lab Alignment
+## 🎯 Project Goals
 
-This project directly addresses CHAI Lab's mission areas:
-- **Healthcare AI**: Direct application in medical communication
+This project addresses important challenges in healthcare technology:
+- **Healthcare Communication**: Direct application in medical preparation
 - **Conversational Systems**: Natural language interaction with emotional awareness
 - **Human Agency Preservation**: Core design principle throughout
 - **Personalization**: Adaptive communication styles and anxiety response
 - **Collaboration**: Enhancing existing human relationships (doctor-patient)
 
+## 🏆 Technical Achievements
+
+- **Contextual Conversation Flow**: Progressive question asking that builds understanding
+- **Symptom Intelligence**: Automatic detection and categorization of medical concerns
+- **Emotional Awareness**: Anxiety detection and appropriate response adaptation
+- **Summary Generation**: Structured output for healthcare provider communication
+- **Human-Centered Design**: Consistent preservation of human agency and medical authority
+
 ---
 
 *Built with human-centered AI principles for better healthcare communication.*
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
